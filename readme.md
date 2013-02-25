@@ -9,7 +9,7 @@ Apache Virtual Hosting
 --
 Two things need configuring, the first is _dynamic virtual hosting_ which is controlled via the `httpd-vhosts.conf` file.  This file is commonly found in the `apache/conf/extras` folder (or in `conf/apache/extras` on MAMP).
 
-It is common for this file to be ignored in Apache installs, so you may need to search in your `httpd.conf` file (found in 'apache/conf' or 'conf/apache/extras' on MAMP) and uncomment this line:
+It is common for this file to be ignored in Apache installs, so you may need to search in your `httpd.conf` file (found in `apache/conf` or `conf/apache/extras` on MAMP) and uncomment this line:
 
 	`Include <FULL_PATH_TO_APACHE>/extra/httpd-vhosts.conf`
 
